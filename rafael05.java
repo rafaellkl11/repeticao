@@ -1,3 +1,5 @@
+/*5. Faça um programa que calcule e imprima a soma e a média dos 10 primeiros números positivos. Soma =
+1 + 2 + 3 + ... + 10*/
 public class rafael05 {
     public static void main(String[] args) {
         int n;
