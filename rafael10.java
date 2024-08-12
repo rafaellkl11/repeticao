@@ -14,7 +14,7 @@ public class rafael10 {
         menor = 0;
         maior = 0;
 
-        System.out.println("Programa que recebe N números e econtra o menor e o maior número");
+        System.out.println("10. Programa que recebe N números e econtra o menor e o maior número");
         System.out.println("Digite '=' para calcular");
 
         while (!nString.equals("=")){
