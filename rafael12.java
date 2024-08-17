@@ -15,7 +15,7 @@ public class rafael12 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner (System.in);
         String cidade, cidadeMenor, cidadeMaior;
-        int veiculos, acidentes, somaVeiculos, somaAcidentes, mediaVeiculos, mediaAcidentes, i, j;
+        int veiculos, acidentes, somaVeiculos, somaAcidentes, mediaVeiculos, mediaAcidentes, j;
         double indice, indiceMenor, indiceMaior;
         
         cidadeMenor = "";
@@ -24,12 +24,11 @@ public class rafael12 {
         somaAcidentes = 0;
         indiceMenor = 0;
         indiceMaior = 0;
-        i = 0;
         j = 0;
 
         System.out.println("12. Programa que a cidade com maior indice de acidentes, razão entre quantidade de acidentes por qunatidade de veiculos, a media de veiculos e a media de acidentes");
 
-        for (i = 1; i <= 5; i++){
+        for (int i = 1; i <= 5; i++){
             System.out.print("Digite o nome da "+i+"° cidade: ");
             cidade = teclado.nextLine();
             System.out.print("Digite o número de veiculos da "+i+"° cidade: ");
