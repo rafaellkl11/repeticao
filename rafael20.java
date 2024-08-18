@@ -3,7 +3,7 @@ usuário. Ao final, o algoritmo deve mostrar estas duas médias bem como o maior
 número ÍMPAR digitado. O algoritmo finaliza quando o usuário digitar um valor negativo.*/
 
 import java.util.Scanner;
-public class rafae20 {
+public class rafael20 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner (System.in);
         double num, maiorPar, menorImpar,somaPar, somaImpar, mediaPar, mediaImpar, i, j, resto;
